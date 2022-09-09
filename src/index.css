@@ -1,0 +1,84 @@
+.div1{
+  max-width: 90%;
+  max-height: none;
+  overflow: visible;
+  visibility: visible;
+  position: relative;
+  cursor: auto;
+  padding: 0;
+  box-sizing: border-box;
+  margin: auto;
+}
+.cards-wrapper{
+  display: flex;
+}
+
+.my_banner{
+  padding: 1rem;
+  background-color: #eceb98;
+}
+.my_banner div{
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.my_nav{
+  display: flex;
+  justify-content: space-around;
+}
+.my_nav div{
+  display: flex;
+  align-items: center;
+  margin: 2px;
+}
+.divlnk{
+  border: 1px solid black;
+}
+.divlnk a{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-size: large;
+}
+.my_main header{
+  width: 90%;
+  margin: 0 auto;
+}
+.hed2 img{
+  width: 100%;
+  object-fit: contain;
+}
+.hed1{
+  position: relative;
+}
+.hed3{
+  position: absolute;
+  padding: 1.4rem;
+  background-color: white;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+  left: 4.2rem;
+  top: 3.4rem;
+  max-width: 20rem;
+}
+.hed3 h1{
+  margin: 0;
+  margin-bottom: 0.8rem; 
+}
+.hed3 p{
+  margin: 0;
+}
+
+.my_head{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.tdiv1{
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+section h4{
+  padding: 2%;
+  padding-left:7%;
+}
