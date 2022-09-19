@@ -1,0 +1,31 @@
+.sdivmain{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.sdiv1 .sp1{
+    color: black;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-right: 10px;
+}
+.sdiv1 .sp2{
+    color: #6a6f73;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+.sdiv1 .sp3{
+    color: #6a6f73;
+}
+.imgdiv{
+    width: 99%;
+    height: 100%;
+    background-color: white;
+    margin: 2px;
+
+}
+.imgdiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

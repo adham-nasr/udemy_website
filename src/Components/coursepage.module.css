@@ -1,6 +1,28 @@
-.cpdiv{
+.c_div3{
     font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
     font-weight: 400;
     line-height: 1.2;
     font-size: 0.8rem;
+    width:40%;
+    margin:0 auto 60px auto;
+    padding-right:20%;
+}
+.c_maindiv{
+    display:flex;
+    justify-content:space-between;
+    height: 100%;
+    position: relative;
+}
+.c_div4{    
+    height:100%;
+    position: absolute;
+    right:100px;
+    width:30%;
+}
+.c_div4 sidebar{
+    position: sticky;
+    top: 0;
+}
+.c_div4 sidebar h1{
+    color: cyan;
 }

@@ -1,0 +1,32 @@
+.Rdiv{
+    display: flex;
+    border-bottom: 1px solid #d1d7dc;
+    padding-bottom: 4px;
+}
+.Rdiv1{
+    width:50px;
+    height:50px;
+    margin: 10px;
+}
+.Rdiv2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Rdiv2 p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.rRdiv div{
+    display: inline-block;
+}
+.duRdiv{
+    margin-left: 10px;
+}
