@@ -1,0 +1,32 @@
+.cls_1{
+    fill:black;
+}
+.cls_2{
+    fill:none ; stroke:black ; stroke-miterlimit:10;
+}
+.msidediv {
+    display: flex;
+}
+.msidediv img{
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+}
+.imgwrapp{
+    margin-right: 10px;
+}
+.msidediv svg{
+    width:20px;
+    height: 20px;
+}
+
+.bioline{
+    margin: 4px;
+}
+
+.bioline p{
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 6px;
+}
