@@ -1,0 +1,31 @@
+.mdiv{
+    border: 1px solid #d1d7dc;
+    box-sizing: border-box;
+    background-color: #f7f9fa;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+    
+}
+
+.mdiv:hover{
+    cursor: pointer;
+}
+.mdiv2{
+    
+    border-right: 1px solid #d1d7dc;
+    border-left: 1px solid #d1d7dc;
+    border-bottom: 1px solid #d1d7dc;
+
+
+    box-sizing: border-box;
+    padding: 5px 30px;
+}
+.mtut{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mhide{
+    display: none;
+}
