@@ -1,0 +1,40 @@
+.mbanner{
+    background-color: black;
+    padding: 3%;
+}
+.mad{
+    color: white;
+}
+.mad a{
+    color: #cec0fc;
+}
+.mnav a{
+    text-decoration: none;
+}
+.mdiv span{
+    display: inline-block;
+}
+.mdiv a{
+    margin-right: 4px;
+}
+
+.msvg{
+    display : inline-block;
+    height :20px;
+    width : 20px;
+  }
+.mdiv{
+    height :50px;
+    font-size: 14px;
+  }
+.mdiv p{
+    display:inline-block; 
+    margin: 0 7px 0 0;
+  }  
+polygon{
+    fill:gold;
+  }
+
+.mdiv2 p{
+    margin: 0;
+}

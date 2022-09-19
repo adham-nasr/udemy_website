@@ -1,0 +1,12 @@
+.div2{
+    border: 1px solid #d1d7dc;
+    padding: 3.2rem;
+    box-sizing: border-box;
+    margin: 0;
+    visibility: visible;
+  }
+  .flexbox_container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }

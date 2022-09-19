@@ -1,0 +1,10 @@
+.fade {
+    max-height: 200px;
+    overflow: hidden;
+    mask-image: linear-gradient(180deg, #000 60%, transparent);
+}
+.btt{
+    color: #5624d0;
+    background-color: transparent;
+    border: none;
+}
