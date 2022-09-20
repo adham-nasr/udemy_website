@@ -1,8 +1,11 @@
 import Card from './Card';
 import styles from './section.module.css'
 import {useEffect, useState} from 'react'
+import {useSearchParams} from 'react-router-dom';
+
 const Sectioncard = (props) => {
     const [cstate , setCstate] = useState(<Card spin="true"/>);
+    const [searchParams , setSearchParams] = useSearchParams();
 
     /*
     const data = [{
@@ -67,6 +70,7 @@ const Sectioncard = (props) => {
         button.addEventListener("click" , ()=>{
             console.log("ASD " , courses);
             let val = search.value.toLowerCase();
+            setSearchParams({q:val})
             let L=[];
             for(let i=1;i<=courses.length;i++)
             {
