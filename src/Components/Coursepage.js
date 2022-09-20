@@ -35,6 +35,7 @@ const Coursepage = () => {
                 </div>
             </div>
             <div className={styles.c_div4}>
+                <Sidebar />
             </div>
         </div>
 
